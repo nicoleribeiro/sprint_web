@@ -146,15 +146,7 @@
   }
 }
 
-* {
-  margin: 0;
-}
-
 @media (max-width: 480px) {
-  .container {
-    max-height: 90%;
-    max-width: 100%;
-  }
   .cadCnpj {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -228,18 +220,6 @@
   .dados-pj select:focus {
     border: 1px solid #1E90FF;
   }
-  .dados {
-    width: 100%;
-    height: 5.3vh;
-    margin-top: 1.5%;
-    padding: 0.5%;
-    padding-top: 2.8%;
-    padding-bottom: 2.7%;
-  }
-  .dados select option {
-    font-size: 0.8em;
-    color: grey;
-  }
   .dados-pj-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -266,115 +246,6 @@
   .btn-pj:hover {
     opacity: 0.9;
   }
-  .cadCpf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
-    height: 100%;
-    margin: auto;
-  }
-  .cadCpf h1 {
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 1em;
-  }
-  .cadCpf p {
-    font-size: 1em;
-    padding: 0.5em;
-  }
-  .cadCpf fieldset {
-    width: 90%;
-    margin: 0.5em;
-    border: 1px solid #1E90FF;
-    border-radius: 0.4em;
-  }
-  .cadCpf legend {
-    font-weight: bold;
-    font-size: 1.2em;
-  }
-  .dados-pf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0.5em;
-  }
-  .dados-pf label {
-    font-size: 1em;
-  }
-  .dados-pf input {
-    margin-top: 0.4em;
-    font-size: 0.8em;
-    width: 75vw;
-    outline: none;
-    border: 1px solid grey;
-    border-radius: 0.4em;
-  }
-  .dados-pf input:focus {
-    border: 1px solid #1E90FF;
-  }
-  .dados-pf select {
-    width: 77.5vw;
-    outline: none;
-    font-size: 0.8em;
-    border: 1px solid grey;
-    border-radius: 0.4em;
-    color: grey;
-  }
-  .dados-pf select:hover {
-    cursor: pointer;
-  }
-  .dados-pf select:focus {
-    border: 1px solid #1E90FF;
-  }
-  .dados-pf select option {
-    font-size: 0.8em;
-    color: grey;
-  }
-  .tipoCadastro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 90%;
-    margin: 33% auto;
-    text-align: center;
-  }
-  .pf {
-    background-color: #1E90FF;
-    margin-top: 1em;
-    width: 50%;
-    height: 4vh;
-    padding: 1.5em;
-    opacity: 1;
-  }
-  .pf:hover {
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  .pf a {
-    text-decoration: none;
-    color: white;
-  }
   .pj {
     background-color: #1E90FF;
     margin-top: 1em;
@@ -391,115 +262,9 @@
     text-decoration: none;
     color: white;
   }
-  .formulario {
-    width: 95%;
-    height: 30%;
-    margin: 40% auto;
-  }
-  .formulario h1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-  }
-  .label {
-    padding-top: 2.5%;
-    background-color: #1E90FF;
-    color: #fff;
-    text-align: center;
-    display: block;
-    float: left;
-    width: 27%;
-    height: 3.5vh;
-    font-size: 0.8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 1%;
-  }
-  .input {
-    width: 60.5%;
-    height: 1.5vh;
-    padding: 2.5%;
-    outline: none;
-    display: block;
-    margin-left: 30.2%;
-    font-size: 0.8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .input:focus {
-    border: 2px solid #1E90FF;
-  }
-  .login p {
-    margin: 0.3em;
-    font-size: 0.8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .link:visited {
-    color: #1E90FF;
-  }
-  .btn {
-    background-color: #1E90FF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 47%;
-    height: 5vh;
-    opacity: 1;
-    display: inline-block;
-    font-size: 0.8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 1%;
-  }
-  .btn:hover {
-    opacity: 0.9;
-  }
-  .dados-pf-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .btn-pf {
-    background-color: #1E90FF;
-    color: white;
-    border: none;
-    border-radius: 0.3em;
-    cursor: pointer;
-    width: 15vh;
-    height: 5vh;
-    opacity: 1;
-    display: inline-block;
-    font-size: 0.8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 1em;
-  }
-  .btn-pf:hover {
-    opacity: 0.9;
-  }
-  footer {
-    background-color: #1E90FF;
-    height: 5vh;
-    bottom: 0;
-    position: relative;
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  footer p {
-    margin: 0.5em;
-    margin-top: 0.5em;
-    color: white;
-  }
-  .fixo {
-    position: fixed;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .container {
-    max-height: 90%;
-    max-width: 100%;
-  }
   .cadCnpj {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -603,145 +368,6 @@
   .btn-pj:hover {
     opacity: 0.9;
   }
-  .cadCpf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
-    height: 100%;
-    margin: auto;
-  }
-  .cadCpf h1 {
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 1em;
-  }
-  .cadCpf p {
-    font-size: 1em;
-    padding: 0.5em;
-  }
-  .cadCpf fieldset {
-    width: 90%;
-    margin: 0.5em;
-    border: 1px solid #1E90FF;
-    border-radius: 0.4em;
-  }
-  .cadCpf legend {
-    font-weight: bold;
-    font-size: 1.2em;
-  }
-  .dados-pf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0.5em;
-  }
-  .dados-pf label {
-    font-size: 1em;
-  }
-  .dados-pf input {
-    margin-top: 0.4em;
-    font-size: 0.8em;
-    width: 75vw;
-    outline: none;
-    border: 1px solid grey;
-    border-radius: 0.4em;
-  }
-  .dados-pf input:focus {
-    border: 1px solid #1E90FF;
-  }
-  .dados-pf select {
-    width: 77.5vw;
-    outline: none;
-    font-size: 0.8em;
-    border: 1px solid grey;
-    border-radius: 0.4em;
-    color: grey;
-  }
-  .dados-pf select:hover {
-    cursor: pointer;
-  }
-  .dados-pf select:focus {
-    border: 1px solid #1E90FF;
-  }
-  .dados-pf select option {
-    font-size: 0.8em;
-    color: grey;
-  }
-  .dados-pf-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .btn-pf {
-    background-color: #1E90FF;
-    color: white;
-    border: none;
-    border-radius: 0.3em;
-    cursor: pointer;
-    width: 15vh;
-    height: 5vh;
-    opacity: 1;
-    display: inline-block;
-    font-size: 0.8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 1em;
-  }
-  .btn-pf:hover {
-    opacity: 0.9;
-  }
-  .link:visited {
-    color: #1E90FF;
-  }
-  .tipoCadastro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 90%;
-    margin: 35% auto;
-    text-align: center;
-  }
-  .pf {
-    background-color: #1E90FF;
-    margin-top: 1em;
-    width: 50%;
-    height: 4vh;
-    padding: 1.5em;
-    opacity: 1;
-    font-size: 1.2em;
-  }
-  .pf:hover {
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  .pf a {
-    text-decoration: none;
-    color: white;
-  }
   .pj {
     background-color: #1E90FF;
     margin-top: 1em;
@@ -759,90 +385,9 @@
     text-decoration: none;
     color: white;
   }
-  .formulario {
-    width: 65%;
-    height: 30%;
-    margin: 33% auto;
-  }
-  .formulario h1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-  }
-  .dados {
-    width: 100%;
-    height: 4vh;
-    padding-top: 2.5%;
-    padding-bottom: 2%;
-  }
-  .label {
-    padding-top: 2.5%;
-    background-color: #1E90FF;
-    color: #fff;
-    text-align: center;
-    display: block;
-    float: left;
-    width: 27%;
-    height: 3vh;
-    font-size: 0.9em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 1%;
-  }
-  .input {
-    width: 60.5%;
-    height: 1.7vh;
-    padding: 2%;
-    outline: none;
-    display: block;
-    margin-left: 30%;
-    font-size: 0.9em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .input:focus {
-    border: 2px solid #1E90FF;
-  }
-  .login p {
-    margin: 0.3em;
-    font-size: 0.9em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .btn {
-    background-color: #1E90FF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 46%;
-    height: 4.3vh;
-    opacity: 1;
-    display: inline-block;
-    font-size: 0.9em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 1%;
-  }
-  .btn:hover {
-    opacity: 0.9;
-  }
-  footer {
-    background-color: #1E90FF;
-    height: 5vh;
-    bottom: 0;
-    position: relative;
-    width: 100%;
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  footer p {
-    margin: 0.5em;
-    margin-top: 0.9em;
-    color: white;
-  }
 }
 
 @media (min-width: 769px) and (max-width: 1279px) {
-  .container {
-    max-height: 90%;
-    max-width: 100%;
-  }
   .cadCnpj {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -919,10 +464,6 @@
     font-size: 0.8em;
     color: grey;
   }
-  #idNumCnpj {
-    width: 11vw;
-    width: 19vw;
-  }
   .dados-pj-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -949,199 +490,6 @@
   .btn-pj:hover {
     opacity: 0.9;
   }
-  .link:visited {
-    color: #1E90FF;
-  }
-  .cadCpf {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 65%;
-    height: 100%;
-    margin: 32% auto;
-  }
-  .cadCpf h1 {
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 1em;
-  }
-  .cadCpf p {
-    font-size: 1em;
-    padding: 0.5em;
-  }
-  .cadCpf fieldset {
-    width: 70%;
-    margin: 0.5em;
-    border: 1px solid #1E90FF;
-    border-radius: 0.4em;
-  }
-  .cadCpf legend {
-    font-weight: bold;
-    font-size: 1.2em;
-  }
-  .dados-pf {
-    display: block;
-    float: left;
-    -webkit-margin-end: 0.5em;
-            margin-inline-end: 0.5em;
-    -webkit-margin-after: 0.5em;
-            margin-block-end: 0.5em;
-    padding: 0.1em;
-  }
-  .dados-pf label {
-    font-size: 1em;
-  }
-  .dados-pf input {
-    margin-top: 0.4em;
-    font-size: 0.8em;
-    width: 18vw;
-    outline: none;
-    border: 1px solid grey;
-    border-radius: 0.4em;
-  }
-  .dados-pf input:focus {
-    border: 1px solid #1E90FF;
-  }
-  .dados-pf select {
-    width: 18vw;
-    outline: none;
-    font-size: 0.8em;
-    border: 1px solid grey;
-    border-radius: 0.4em;
-    color: grey;
-  }
-  .dados-pf select:hover {
-    cursor: pointer;
-  }
-  .dados-pf select:focus {
-    border: 1px solid #1E90FF;
-  }
-  #idRazaoSocial {
-    width: 19.3vw;
-  }
-  #idNomeFantasia {
-    width: 18vw;
-  }
-  #idNumCpf {
-    width: 11vw;
-  }
-  #idIdade {
-    width: 10.3vw;
-  }
-  #idIdadeEmpresa {
-    width: 10.3vw;
-  }
-  #idSexo {
-    width: 11.2vw;
-  }
-  #idTxtEmail {
-    width: 24vw;
-  }
-  #idNumTelefone {
-    width: 17vw;
-  }
-  #idRua {
-    width: 19.5vw;
-  }
-  #idCep {
-    width: 20vw;
-  }
-  #idNumero {
-    width: 17.5vw;
-  }
-  #idComp {
-    width: 19vw;
-  }
-  #idBairro {
-    width: 18.5vw;
-  }
-  #idCidade {
-    width: 23.5vw;
-  }
-  #idSelEstados {
-    width: 24.5vw;
-  }
-  #idSelPaises {
-    width: 20vw;
-  }
-  .dados {
-    width: 100%;
-    height: 5vh;
-    padding-top: 2.5%;
-    padding-bottom: 1.5%;
-  }
-  .dados select option {
-    font-size: 0.8em;
-    color: grey;
-  }
-  .dados-pf-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .btn-pf {
-    background-color: #1E90FF;
-    color: white;
-    border: none;
-    border-radius: 0.3em;
-    cursor: pointer;
-    width: 10vh;
-    height: 3vh;
-    opacity: 1;
-    display: inline-block;
-    font-size: 0.8em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 1em;
-  }
-  .btn-pf:hover {
-    opacity: 0.9;
-  }
-  .tipoCadastro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 90%;
-    margin: 35% auto;
-    text-align: center;
-    font-size: 1.5em;
-  }
-  .pf {
-    background-color: #1E90FF;
-    margin-top: 1em;
-    width: 50%;
-    height: 4vh;
-    padding: 1.5em;
-    opacity: 1;
-    font-size: 1.5em;
-  }
-  .pf:hover {
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  .pf a {
-    text-decoration: none;
-    color: white;
-  }
   .pj {
     background-color: #1E90FF;
     margin-top: 1em;
@@ -1159,85 +507,9 @@
     text-decoration: none;
     color: white;
   }
-  .formulario {
-    width: 65%;
-    height: 30%;
-    margin: 33% auto;
-  }
-  .formulario h1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-  }
-  .label {
-    padding-top: 2.5%;
-    background-color: #1E90FF;
-    color: #fff;
-    text-align: center;
-    display: block;
-    float: left;
-    width: 27%;
-    height: 3.5vh;
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 1.5%;
-  }
-  .input {
-    width: 60.5%;
-    height: 3vh;
-    padding: 1%;
-    outline: none;
-    display: block;
-    margin-top: 0.5%;
-    margin-left: 31.5%;
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .input:focus {
-    border: 2px solid #1E90FF;
-  }
-  .login p {
-    margin: 0.3em;
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .btn {
-    background-color: #1E90FF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 46%;
-    height: 4.3vh;
-    opacity: 1;
-    display: inline-block;
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 1.5%;
-  }
-  .btn:hover {
-    opacity: 1.1;
-  }
-  footer {
-    background-color: #1E90FF;
-    height: 5vh;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    font-size: 1.5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  footer p {
-    margin: 1em;
-    margin-top: 1em;
-    color: white;
-  }
 }
 
 @media (min-width: 1280px) {
-  .container {
-    max-height: 90%;
-    max-width: 100%;
-  }
   .cadCnpj {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1314,10 +586,6 @@
     font-size: 0.8em;
     color: grey;
   }
-  #idNumCnpj {
-    width: 10.5vw;
-    width: 16vw;
-  }
   .dados-pj-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1345,6 +613,389 @@
   .btn-pj:hover {
     opacity: 0.9;
   }
+  .pj {
+    background-color: #1E90FF;
+    margin-top: 1em;
+    height: 4vh;
+    width: 50%;
+    padding: 1.5em;
+    opacity: 1;
+    font-size: 1.2em;
+  }
+  .pj:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  .pj a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (max-width: 480px) {
+  .cadCpf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+  .cadCpf h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .cadCpf p {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  .cadCpf fieldset {
+    width: 90%;
+    margin: 0.5em;
+    border: 1px solid #1E90FF;
+    border-radius: 0.4em;
+  }
+  .cadCpf legend {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .dados-pf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0.5em;
+  }
+  .dados-pf label {
+    font-size: 1em;
+  }
+  .dados-pf input {
+    margin-top: 0.4em;
+    font-size: 0.8em;
+    width: 75vw;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 0.4em;
+  }
+  .dados-pf input:focus {
+    border: 1px solid #1E90FF;
+  }
+  .dados-pf select {
+    width: 77.5vw;
+    outline: none;
+    font-size: 0.8em;
+    border: 1px solid grey;
+    border-radius: 0.4em;
+    color: grey;
+  }
+  .dados-pf select:hover {
+    cursor: pointer;
+  }
+  .dados-pf select:focus {
+    border: 1px solid #1E90FF;
+  }
+  .dados-pf select option {
+    font-size: 0.8em;
+    color: grey;
+  }
+  .dados-pf-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .btn-pf {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    width: 15vh;
+    height: 5vh;
+    opacity: 1;
+    display: inline-block;
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1em;
+  }
+  .btn-pf:hover {
+    opacity: 0.9;
+  }
+  .pf {
+    background-color: #1E90FF;
+    margin-top: 1em;
+    width: 50%;
+    height: 4vh;
+    padding: 1.5em;
+    opacity: 1;
+  }
+  .pf:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  .pf a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .cadCpf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+  .cadCpf h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .cadCpf p {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  .cadCpf fieldset {
+    width: 90%;
+    margin: 0.5em;
+    border: 1px solid #1E90FF;
+    border-radius: 0.4em;
+  }
+  .cadCpf legend {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .dados-pf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0.5em;
+  }
+  .dados-pf label {
+    font-size: 1em;
+  }
+  .dados-pf input {
+    margin-top: 0.4em;
+    font-size: 0.8em;
+    width: 75vw;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 0.4em;
+  }
+  .dados-pf input:focus {
+    border: 1px solid #1E90FF;
+  }
+  .dados-pf select {
+    width: 77.5vw;
+    outline: none;
+    font-size: 0.8em;
+    border: 1px solid grey;
+    border-radius: 0.4em;
+    color: grey;
+  }
+  .dados-pf select:hover {
+    cursor: pointer;
+  }
+  .dados-pf select:focus {
+    border: 1px solid #1E90FF;
+  }
+  .dados-pf select option {
+    font-size: 0.8em;
+    color: grey;
+  }
+  .dados-pf-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .btn-pf {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    width: 15vh;
+    height: 5vh;
+    opacity: 1;
+    display: inline-block;
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1em;
+  }
+  .btn-pf:hover {
+    opacity: 0.9;
+  }
+  .pf {
+    background-color: #1E90FF;
+    margin-top: 1em;
+    width: 50%;
+    height: 4vh;
+    padding: 1.5em;
+    opacity: 1;
+    font-size: 1.2em;
+  }
+  .pf:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  .pf a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  .cadCpf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+    height: 100%;
+    margin: 32% auto;
+  }
+  .cadCpf h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .cadCpf p {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  .cadCpf fieldset {
+    width: 70%;
+    margin: 0.5em;
+    border: 1px solid #1E90FF;
+    border-radius: 0.4em;
+  }
+  .cadCpf legend {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .dados-pf {
+    display: block;
+    float: left;
+    -webkit-margin-end: 0.5em;
+            margin-inline-end: 0.5em;
+    -webkit-margin-after: 0.5em;
+            margin-block-end: 0.5em;
+    padding: 0.1em;
+  }
+  .dados-pf label {
+    font-size: 1em;
+  }
+  .dados-pf input {
+    margin-top: 0.4em;
+    font-size: 0.8em;
+    width: 18vw;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 0.4em;
+  }
+  .dados-pf input:focus {
+    border: 1px solid #1E90FF;
+  }
+  .dados-pf select {
+    width: 18vw;
+    outline: none;
+    font-size: 0.8em;
+    border: 1px solid grey;
+    border-radius: 0.4em;
+    color: grey;
+  }
+  .dados-pf select:hover {
+    cursor: pointer;
+  }
+  .dados-pf select:focus {
+    border: 1px solid #1E90FF;
+  }
+  .dados-pf-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .btn-pf {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    width: 10vh;
+    height: 3vh;
+    opacity: 1;
+    display: inline-block;
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1em;
+  }
+  .btn-pf:hover {
+    opacity: 0.9;
+  }
+  .pf {
+    background-color: #1E90FF;
+    margin-top: 1em;
+    width: 50%;
+    height: 4vh;
+    padding: 1.5em;
+    opacity: 1;
+    font-size: 1.5em;
+  }
+  .pf:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  .pf a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (min-width: 1280px) {
   .cadCpf {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1421,6 +1072,111 @@
     font-size: 0.8em;
     color: grey;
   }
+  .dados-pf-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .btn-pf {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    width: 15vh;
+    height: 5vh;
+    opacity: 1;
+    display: inline-block;
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1em;
+  }
+  .btn-pf:hover {
+    opacity: 0.9;
+  }
+  .pf {
+    background-color: #1E90FF;
+    margin-top: 1em;
+    width: 50%;
+    height: 4vh;
+    padding: 1.5em;
+    opacity: 1;
+    font-size: 1.2em;
+  }
+  .pf:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  .pf a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  #idNumCnpj {
+    width: 11vw;
+    width: 19vw;
+  }
+  #idRazaoSocial {
+    width: 19.3vw;
+  }
+  #idNomeFantasia {
+    width: 18vw;
+  }
+  #idNumCpf {
+    width: 11vw;
+  }
+  #idIdade {
+    width: 10.3vw;
+  }
+  #idIdadeEmpresa {
+    width: 10.3vw;
+  }
+  #idSexo {
+    width: 11.2vw;
+  }
+  #idTxtEmail {
+    width: 24vw;
+  }
+  #idNumTelefone {
+    width: 17vw;
+  }
+  #idRua {
+    width: 19.5vw;
+  }
+  #idCep {
+    width: 20vw;
+  }
+  #idNumero {
+    width: 17.5vw;
+  }
+  #idComp {
+    width: 19vw;
+  }
+  #idBairro {
+    width: 18.5vw;
+  }
+  #idCidade {
+    width: 23.5vw;
+  }
+  #idSelEstados {
+    width: 24.5vw;
+  }
+  #idSelPaises {
+    width: 20vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  #idNumCnpj {
+    width: 10.5vw;
+    width: 16vw;
+  }
   #idTxtName {
     width: 22.5vw;
   }
@@ -1473,31 +1229,365 @@
   #idSelPaises {
     width: 17.3vw;
   }
-  .dados-pf-btn {
+}
+
+@media (max-width: 480px) {
+  footer {
+    background-color: #1E90FF;
+    height: 5vh;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer p {
+    margin: 0.5em;
+    margin-top: 0.5em;
+    color: white;
+  }
+  .fixo {
+    position: fixed;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  footer {
+    background-color: #1E90FF;
+    height: 5vh;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer p {
+    margin: 0.5em;
+    margin-top: 0.9em;
+    color: white;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  footer {
+    background-color: #1E90FF;
+    height: 5vh;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer p {
+    margin: 1em;
+    margin-top: 1em;
+    color: white;
+  }
+}
+
+@media (min-width: 1280px) {
+  footer {
+    background-color: #1E90FF;
+    height: 5vh;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer p {
+    margin: 0.5em;
+    margin-top: 0.5em;
+    color: white;
+  }
+}
+
+* {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-height: 90%;
+    max-width: 100%;
+  }
+  .dados {
+    width: 100%;
+    height: 5.3vh;
+    margin-top: 1.5%;
+    padding: 0.5%;
+    padding-top: 2.8%;
+    padding-bottom: 2.7%;
+  }
+  .dados select option {
+    font-size: 0.8em;
+    color: grey;
+  }
+  .tipoCadastro {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: 33% auto;
+    text-align: center;
   }
-  .btn-pf {
+  .formulario {
+    width: 95%;
+    height: 30%;
+    margin: 40% auto;
+  }
+  .formulario h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+  }
+  .label {
+    padding-top: 2.5%;
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 27%;
+    height: 3.5vh;
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1%;
+  }
+  .input {
+    width: 60.5%;
+    height: 1.5vh;
+    padding: 2.5%;
+    outline: none;
+    display: block;
+    margin-left: 30.2%;
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .input:focus {
+    border: 2px solid #1E90FF;
+  }
+  .login p {
+    margin: 0.3em;
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .link:visited {
+    color: #1E90FF;
+  }
+  .btn {
     background-color: #1E90FF;
     color: white;
     border: none;
-    border-radius: 0.3em;
     cursor: pointer;
-    width: 15vh;
+    width: 47%;
     height: 5vh;
     opacity: 1;
     display: inline-block;
     font-size: 0.8em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 1em;
+    margin-left: 1%;
   }
-  .btn-pf:hover {
+  .btn:hover {
     opacity: 0.9;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-height: 90%;
+    max-width: 100%;
+  }
+  .link:visited {
+    color: #1E90FF;
+  }
+  .tipoCadastro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: 35% auto;
+    text-align: center;
+  }
+  .formulario {
+    width: 65%;
+    height: 30%;
+    margin: 33% auto;
+  }
+  .formulario h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+  }
+  .dados {
+    width: 100%;
+    height: 4vh;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+  }
+  .label {
+    padding-top: 2.5%;
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 27%;
+    height: 3vh;
+    font-size: 0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1%;
+  }
+  .input {
+    width: 60.5%;
+    height: 1.7vh;
+    padding: 2%;
+    outline: none;
+    display: block;
+    margin-left: 30%;
+    font-size: 0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .input:focus {
+    border: 2px solid #1E90FF;
+  }
+  .login p {
+    margin: 0.3em;
+    font-size: 0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .btn {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 46%;
+    height: 4.3vh;
+    opacity: 1;
+    display: inline-block;
+    font-size: 0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1%;
+  }
+  .btn:hover {
+    opacity: 0.9;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  .container {
+    max-height: 90%;
+    max-width: 100%;
+  }
+  .link:visited {
+    color: #1E90FF;
+  }
+  .dados {
+    width: 100%;
+    height: 5vh;
+    padding-top: 2.5%;
+    padding-bottom: 1.5%;
+  }
+  .dados select option {
+    font-size: 0.8em;
+    color: grey;
+  }
+  .tipoCadastro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin: 35% auto;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .formulario {
+    width: 65%;
+    height: 30%;
+    margin: 33% auto;
+  }
+  .formulario h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+  }
+  .label {
+    padding-top: 2.5%;
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 27%;
+    height: 3.5vh;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1.5%;
+  }
+  .input {
+    width: 60.5%;
+    height: 3vh;
+    padding: 1%;
+    outline: none;
+    display: block;
+    margin-top: 0.5%;
+    margin-left: 31.5%;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .input:focus {
+    border: 2px solid #1E90FF;
+  }
+  .login p {
+    margin: 0.3em;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .btn {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 46%;
+    height: 4.3vh;
+    opacity: 1;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1.5%;
+  }
+  .btn:hover {
+    opacity: 1.1;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-height: 90%;
+    max-width: 100%;
   }
   .link:visited {
     color: #1E90FF;
@@ -1517,40 +1607,6 @@
     width: 90%;
     margin: 10% auto;
     text-align: center;
-  }
-  .pf {
-    background-color: #1E90FF;
-    margin-top: 1em;
-    width: 50%;
-    height: 4vh;
-    padding: 1.5em;
-    opacity: 1;
-    font-size: 1.2em;
-  }
-  .pf:hover {
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  .pf a {
-    text-decoration: none;
-    color: white;
-  }
-  .pj {
-    background-color: #1E90FF;
-    margin-top: 1em;
-    height: 4vh;
-    width: 50%;
-    padding: 1.5em;
-    opacity: 1;
-    font-size: 1.2em;
-  }
-  .pj:hover {
-    opacity: 0.9;
-    cursor: pointer;
-  }
-  .pj a {
-    text-decoration: none;
-    color: white;
   }
   .formulario {
     width: 28%;
@@ -1615,20 +1671,6 @@
   }
   .btn:hover {
     opacity: 1.1;
-  }
-  footer {
-    background-color: #1E90FF;
-    height: 5vh;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    font-size: 1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  footer p {
-    margin: 0.5em;
-    margin-top: 0.5em;
-    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */
