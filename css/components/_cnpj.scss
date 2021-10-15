@@ -1,0 +1,494 @@
+@media (max-width: 480px) {
+    .cadCnpj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+
+        h1 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 1em;
+        }
+
+        p {
+            font-size: 1em;
+            padding: 0.5em;
+        }
+
+        fieldset {
+            width: 90%;
+            margin: 0.5em;
+            border: 1px solid #1E90FF;
+            border-radius: 0.4em;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    }
+
+    .dados-pj {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+
+        label {
+            font-size: 1em;
+        }
+
+        input {
+            margin-top: 0.4em;
+            font-size: 0.8em;
+            width: 75vw;
+            outline: none;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+        }
+
+        select {
+            width: 77.5vw;
+            outline: none;
+            font-size: 0.8em;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+            color: grey;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+        }
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-pj {
+        background-color: #1E90FF;
+        color: white;
+        border: none;
+        border-radius: 0.3em;
+        cursor: pointer;
+        width: 15vh;
+        height: 5vh;
+        opacity: 1;
+        display: inline-block;
+        font-size: 0.8em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 1em;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .pj {
+        background-color: #1E90FF;
+        margin-top: 1em;
+        height: 4vh;
+        width: 50%;
+        padding: 1.5em;
+        opacity: 1;
+
+        &:hover {
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .cadCnpj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+
+        h1 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 1em;
+        }
+
+        p {
+            font-size: 1em;
+            padding: 0.5em;
+        }
+
+        fieldset {
+            width: 90%;
+            margin: 0.5em;
+            border: 1px solid #1E90FF;
+            border-radius: 0.4em;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    }
+
+    .dados-pj {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em;
+
+        label {
+            font-size: 1em;
+        }
+
+        input {
+            margin-top: 0.4em;
+            font-size: 0.8em;
+            width: 75vw;
+            outline: none;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+        }
+
+        select {
+            width: 77.5vw;
+            outline: none;
+            font-size: 0.8em;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+            color: grey;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+
+            option {
+                font-size: 0.8em;
+                color: grey;
+            }
+        }
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-pj {
+        background-color: #1E90FF;
+        color: white;
+        border: none;
+        border-radius: 0.3em;
+        cursor: pointer;
+        width: 15vh;
+        height: 5vh;
+        opacity: 1;
+        display: inline-block;
+        font-size: 0.8em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 1em;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .pj {
+        background-color: #1E90FF;
+        margin-top: 1em;
+        height: 4vh;
+        width: 50%;
+        padding: 1.5em;
+        opacity: 1;
+        font-size: 1.2em;
+
+        &:hover {
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .cadCnpj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        height: 100%;
+        margin: 32% auto;
+
+        h1 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 1em;
+        }
+
+        p {
+            font-size: 1em;
+            padding: 0.5em;
+        }
+
+        fieldset {
+            width: 70%;
+            margin: 0.5em;
+            border: 1px solid #1E90FF;
+            border-radius: 0.4em;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    }
+
+    .dados-pj {
+        display: block;
+        float: left;
+        margin-inline-end: 0.5em;
+        margin-block-end: 0.5em;
+        padding: 0.1em;
+
+        label {
+            font-size: 1em;
+        }
+
+        input {
+            margin-top: 0.4em;
+            font-size: 0.8em;
+            width: 18vw;
+            outline: none;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+        }
+
+        select {
+            width: 18vw;
+            outline: none;
+            font-size: 0.8em;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+            color: grey;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+
+            option {
+                font-size: 0.8em;
+                color: grey;
+            }
+        }
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-pj {
+        background-color: #1E90FF;
+        color: white;
+        border: none;
+        border-radius: 0.3em;
+        cursor: pointer;
+        width: 10vh;
+        height: 3vh;
+        opacity: 1;
+        display: inline-block;
+        font-size: 0.8em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 1em;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .pj {
+        background-color: #1E90FF;
+        margin-top: 1em;
+        height: 4vh;
+        width: 50%;
+        padding: 1.5em;
+        opacity: 1;
+        font-size: 1.5em;
+
+        &:hover {
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .cadCnpj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 75%;
+        height: 100%;
+        margin: 1% auto;
+
+        h1 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 1em;
+        }
+
+        p {
+            font-size: 1em;
+            padding: 0.5em;
+        }
+
+        fieldset {
+            width: 65%;
+            margin: 0.5em;
+            border: 1px solid #1E90FF;
+            border-radius: 0.4em;
+        }
+
+        legend {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    }
+
+    .dados-pj {
+        display: block;
+        float: left;
+        margin-inline-end: 0.5em;
+        margin-block-end: 0.5em;
+        padding: 0.1em;
+
+        label {
+            font-size: 1em;
+        }
+
+        input {
+            margin-top: 0.4em;
+            font-size: 0.8em;
+            width: 18vw;
+            outline: none;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+        }
+
+        select {
+            width: 18vw;
+            outline: none;
+            font-size: 0.8em;
+            border: 1px solid grey;
+            border-radius: 0.4em;
+            color: grey;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:focus {
+                border: 1px solid #1E90FF;
+            }
+
+            option {
+                font-size: 0.8em;
+                color: grey;
+            }
+        }
+    }
+
+    .dados-pj-btn {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-pj {
+        background-color: #1E90FF;
+        color: white;
+        border: none;
+        border-radius: 0.3em;
+        cursor: pointer;
+        width: 15vh;
+        height: 5vh;
+        opacity: 1;
+        display: inline-block;
+        font-size: 0.8em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 1em;
+        margin-bottom: 3em;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .pj {
+        background-color: #1E90FF;
+        margin-top: 1em;
+        height: 4vh;
+        width: 50%;
+        padding: 1.5em;
+        opacity: 1;
+        font-size: 1.2em;
+
+        &:hover {
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
